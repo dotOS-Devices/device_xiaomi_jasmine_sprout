@@ -41,7 +41,10 @@ PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
 
 # Inherit dotOS Official Stuff
-export DOT_OFFICIAL := true
+DOT_OFFICIAL := true
+
+# Pixel Charging Animation
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
