@@ -15,11 +15,11 @@
 # limitations under the License.
 #
 
-# inherit MI A2 device config for dotOS
+# inherit MI A2 device config for PixelExperience
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_jasmine_sprout.mk
+    $(LOCAL_DIR)/aosp_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_jasmine_sprout-user \
-    dot_jasmine_sprout-userdebug \
-    dot_jasmine_sprout-eng
+    aosp_jasmine_sprout-user \
+    aosp_jasmine_sprout-userdebug \
+    aosp_jasmine_sprout-eng \

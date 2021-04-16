@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit Project Fluid product configuration
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -40,17 +40,10 @@ PRODUCT_NAME := dot_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
 
-# Inherit dotOS Official Stuff
-DOT_OFFICIAL := true
-
-# Pixel Charging Animation
-TARGET_INCLUDE_PIXEL_CHARGER := true
-
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
-WITH_GAPPS := true
 IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_STOCK_ARCORE := true
