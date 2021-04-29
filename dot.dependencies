@@ -1,0 +1,32 @@
+[
+   {
+        "remote"      : "github",
+        "repository"  : "TechWiz007/device_xiaomi_wayne-common",
+        "target_path" : "device/xiaomi/wayne-common",
+        "branch"      : "dot-11-EAS"
+   },
+   {
+        "remote"      : "github",
+        "repository"  : "TechWiz007/device_xiaomi_sdm660-common",
+        "target_path" : "device/xiaomi/sdm660-common",
+        "branch"      : "wip"
+   },
+   {
+       "remote"       : "github"
+       "repository"   : "TechWiz007/vendor_xiaomi_sdm660-common"
+       "target_path"  : "vendor/xiaomi/sdm660-common"
+       "branch"       : "wip"
+   },
+   {
+       "remote"       : "github"
+       "repository"   : "TechWiz007/vendor_xiaomi_wayne-common"
+       "target_path"  : "device/xiaomi/wayne-common"
+       "branch"       : "dot-11-EAS"
+   },
+   {
+       "remote"       : "github"
+       "repository"   : "ChrisW444/vendor_xiaomi_dirac"
+       "target_path"  : "vendor_xiaomi_dirac"
+       "branch"       : "11x"
+   }
+]
