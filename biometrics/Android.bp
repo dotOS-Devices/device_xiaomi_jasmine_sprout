@@ -14,9 +14,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660",
+    name: "android.hardware.biometrics.fingerprint@2.1-service.jasmine",
     defaults: ["hidl_defaults"],
-    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660.rc"],
+    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.jasmine.rc"],
     vendor: true,
     relative_install_path: "hw",
     srcs: [

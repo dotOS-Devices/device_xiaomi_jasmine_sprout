@@ -20,7 +20,7 @@ import os
 import sys
 from hashlib import sha1
 
-device = 'sdm660-common'
+device = 'jasmine_sprout'
 vendor = 'xiaomi'
 
 with open('proprietary-files.txt', 'r') as f:

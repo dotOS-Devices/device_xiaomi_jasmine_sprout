@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.power-service.xiaomi_sdm660-libperfmgr"
+#define LOG_TAG "android.hardware.power-service.jasmine-libperfmgr"
 
 #include <thread>
 

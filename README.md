@@ -1,29 +1,27 @@
-### This repository contains device configuration for Xiaomi-SDM660 devices
 
-Basic   | Spec Sheet
--------:|:----------
-CPU     | Quad-core 1.84 GHz Qualcomm Kryo 260 LP
-CPU     | Quad-core 2.20 GHz Qualcomm Kryo 260 HP
-Chipset | Qualcomm Snapdragon 660, SDM660
-GPU     | Adreno 512
-ROM     | 32/64/128GB
-RAM     | 3/4/6GB
-Android | 8.1.0
+The MI A2 (codenamed _"jasmine_sprout"_) is a mid-range phone from Xiaomi.
 
-## Notes:
- - Depends on: android_packages_resources_devicesettings from LineageOS
- - Depends on: LA.QSSI.11.0.r1-09100-qssi.0 tag for vendor_codeaurora_telephony
- - Depends on: LA.UM.9.6.2.r1-03600-89xx.0 tag for GPS and WFD
+Xiaomi MI A2 was announced and released in July 2018.
 
-## Currently Supported Devices:
- - clover (MI PAD 4 /4 Plus)
- - jason (Redmi Note 3)
- - jasmine_sprout (MI A2)
- - lavender (Redmi Note 7)
- - platina (Mi 8 Lite)
- - tulip (Redmi Note 6 Pro)
- - wayne (MI 6X)
- - whyred (Redmi Note 5)
+## Device specifications
+
+| Device       | Xiaomi MI A2         |
+| -----------: | :---------------------------------------------- |
+| SoC          | Qualcomm SDM660 Snapdragon 660                  |
+| CPU          | 8x Qualcomm® Kryo™ 260 up to 2.2GHz             |
+| GPU          | Adreno 512                                      |
+| Memory       | 4GB / 6GB RAM (LPDDR4X)                         |
+| Shipped Android version | 8.1.0                           	   |
+| Storage      | 32/64/128GB eMMC 5.1 flash storage              |
+| Battery      | Non-removable Li-Po 3010 mAh               	   |
+| Dimensions   | 158.7 x 75.4 x 7.3 mm	                         |
+| Display      | 1080x2160 pixels, 5.99    						           |
+Rear Camera    | 12MP+20MP, AI Dual Camera
+Front Camera   | 20 MP
+
+## Device picture
+
+![Xiaomi MI 6X](https://img.staticbg.com/thumb/large/oaupload/banggood/images/90/CB/781c0a93-de94-4010-86c8-5b9f846f4aa4.jpg "Xiaomi MI A2")
 
 ## Copyright
 
