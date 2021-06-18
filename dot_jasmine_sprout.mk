@@ -51,5 +51,3 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# TWRP Support
-BUILD_TWRP := true
